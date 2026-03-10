@@ -1,13 +1,9 @@
-function contohSupervised(){
+let slider = document.querySelector(".slider");
 
-document.getElementById("hasil").innerHTML =
-"Contoh: deteksi email spam, prediksi harga rumah, dan pengenalan wajah.";
-
+function nextSlide(){
+slider.style.transform = "translateX(-100vw)";
 }
 
-function contohUnsupervised(){
-
-document.getElementById("hasil").innerHTML =
-"Contoh: pengelompokan pelanggan, analisis pola belanja, dan sistem rekomendasi.";
-
+function prevSlide(){
+slider.style.transform = "translateX(0)";
 }

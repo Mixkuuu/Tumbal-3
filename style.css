@@ -7,7 +7,7 @@ background:#eef2ff;
 
 .slider{
 display:flex;
-width:200%;
+width:200vw;
 transition:0.6s;
 }
 
